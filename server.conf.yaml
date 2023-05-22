@@ -1,0 +1,8 @@
+---
+# ACE Integration Server configuration file
+ConnectorProviders:
+  ACMfg:
+    connectorClassName: 'com.ibm.industrypack.industryclient.connector.ICConnectorFactory'
+    jarsURL: '/opt/IBM/ACMfg-3.0.1.1/runtime/amd64_linux_2'
+    property1: 'trustCertificate=true'
+
